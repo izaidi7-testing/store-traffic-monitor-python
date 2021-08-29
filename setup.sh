@@ -21,10 +21,10 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #Install the dependencies
-sudo apt-get update
-sudo apt-get install ffmpeg
-sudo apt-get install python3-pip
-sudo pip3 install numpy jupyter
+apt-get update
+apt-get install ffmpeg
+apt-get install python3-pip
+pip3 install numpy jupyter
 
 BASE_DIR=`pwd`
 
