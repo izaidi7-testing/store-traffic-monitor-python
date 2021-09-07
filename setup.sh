@@ -36,7 +36,7 @@ wget -O bottle-detection.mp4 https://github.com/intel-iot-devkit/sample-videos/r
 
 #Download the model
 cd /opt/intel/openvino/deployment_tools/tools/model_downloader
-./downloader.py --name mobilenet-ssd
+# ./downloader.py --name mobilenet-ssd
 
 #Optimize the model
 cd /opt/intel/openvino/deployment_tools/model_optimizer/
